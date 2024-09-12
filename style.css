@@ -1,0 +1,461 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/* header section start */
+
+#headerbg{
+
+    background-image: url(img/headerbgnew.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: poppins;
+
+
+
+}
+
+#navbg{
+
+    /* background: #656261; */
+    background-color: #141416;
+    
+    
+    
+    
+    }
+
+    #headerdown{
+
+        margin-top: 200px;
+        
+        
+        }
+
+        #headerbtn{
+
+
+            /* background:#eb352546; */
+            /* color: #eb3725; */
+            background:#3c2bbe44;
+            color: #3D2BBE;
+            border-radius: 50px;
+        
+        
+        
+        }
+
+        /* header section End */
+
+
+
+        /* about section start */
+
+        #colorheading{
+
+
+            color:#3D2BBE ;
+            width: 100%;
+            
+            
+            }
+
+
+
+            #aboutmargintop{
+
+
+                margin-top: 100px;
+                font-family: poppins;
+            
+            
+            }
+
+
+
+
+            #heading{
+
+                font-weight: 300;
+            
+            
+            
+            
+            }
+
+            #bulletorange{
+
+            
+
+
+            }
+
+
+            /* about section End */
+
+
+
+            /* progress section start */
+
+            #progress{
+
+                background-color: #3D2BBE;
+                border-radius: 50px;
+            
+            
+            
+            
+            
+            }
+
+            #progress1{
+
+                border-radius: 50px;
+                border-width: 2px;
+                border-style: double;
+                border-color: #3D2BBE;
+            
+            
+            
+            
+            
+            }
+
+            /* progress section End */
+
+
+            /* Education and Experience start */
+
+
+            #edbgorange{
+
+                background:#3D2BBE;
+                width: 30%;
+                height: 30px;
+                border-radius: 100px 0px 150px 100px;
+                
+            
+            
+            
+            
+            }
+
+            #edbGray{
+
+                background-color: #f4f5f8;
+                padding: 10px;
+                border-radius: 5px;
+                
+                
+                }
+
+                #edbggray{
+
+                    background:#55679C;
+                    width: 30%;
+                    height: 30px;
+                    border-radius: 100px 0px 150px 100px;
+                
+                
+                }
+
+            /* Education and Experience End */
+
+
+            /* service section start */
+
+            #icons{
+
+
+
+                font-size: 40px;
+                padding: 20px;
+                border-radius: 100%;
+                color: #3D2BBE;
+            }
+
+            #icons:hover{
+
+
+                color: red;
+                
+                
+                }
+
+
+            /* service section End */
+
+
+
+            /* counter section start */
+
+            #counterbg{
+
+                background-image: url(img/counterbgnew2.jpg);
+                width: 100%;
+                height: 300px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 100px;
+            
+            
+            
+            
+            
+            
+            }
+
+        #counterhover:hover{
+
+            color: red;
+
+
+
+        }
+
+
+            /* counter section End */
+
+
+            /* Client section start */
+
+            
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+
+h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #3D2BBE;;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+
+
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+
+
+.carousel .overview {	
+	font-style: italic;
+}
+
+
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #3D2BBE;;
+}
+
+
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+
+
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+
+
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+            /* client section End */
+
+
+           /* icons section start */
+
+           #iconbg{
+
+            background-color: #3D2BBE;
+            width: 100%;
+            height: 400px;
+            
+            
+            
+            }
+
+            #iconsection{
+
+
+                font-size: 60px;
+                padding: 20px;
+                border-radius: 100%;
+                color: white;
+
+            }
+
+            #iconsection:hover{
+
+
+                color: red;
+               
+               
+               
+               }
+
+               #iconsectiondown{
+
+                margin-top: 50px;
+            
+            
+            
+            }
+            
+            
+
+
+           /* icons section End */
+
+
+
+           /* contact section start */
+
+            #contactbtn{
+
+                background-color: #3D2BBE;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+                
+            }
+
+
+           /* contact section End */
+
+
+
+
+           /* footer start */
+
+
+           #footerbg{
+
+            background-color: #3D2BBE;
+            width: 100%;
+            height: 500px;
+            margin-top: 100px;
+            font-family: poppins;
+        
+        
+        
+        
+        }
+
+        #socialmedia:hover{
+
+            color: red;
+
+
+
+        }
+
+        #footerbutton{
+
+            background-color: #3D2BBE;
+            color: white;
+            border-color: white;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+        }
+
+
+    #copyright{
+
+        color: red;
+    }
+
+
+
+           /* footer End */
