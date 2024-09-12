@@ -97,6 +97,31 @@
 
     }
 
+    #edbggray{
+
+        background:#55679C;
+        width: 50%;
+        height: 30px;
+        border-radius: 100px 0px 150px 100px;
+    
+    
+    }
+
+     #edbgorange{
+
+        background:#3D2BBE;
+        width: 50%;
+        height: 30px;
+        border-radius: 100px 0px 150px 100px;
+        
+    
+    
+    
+    
+    }
+
+
+
 
 
   }
